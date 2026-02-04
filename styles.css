@@ -1,4 +1,6 @@
-/* CSS Variables - Will be updated by JavaScript */
+#noBtn {
+    position: absolute;
+}/* CSS Variables - Will be updated by JavaScript */
 :root {
     /* Colors */
     --background-color-1: #ffafbd;
