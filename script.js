@@ -1,3 +1,19 @@
+const noBtn = document.getElementById('noBtn');
+const yesBtn = document.getElementById('yesBtn');
+
+// Make the "No" button run away
+noBtn.addEventListener('mouseover', () => {
+    const i = Math.floor(Math.random() * (window.innerWidth - 100));
+    const j = Math.floor(Math.random() * (window.innerHeight - 100));
+    noBtn.style.left = i + 'px';
+    noBtn.style.top = j + 'px';
+});
+
+// What happens when they click Yes
+yesBtn.addEventListener('click', () => {
+    alert("Yay! I knew you'd say yes! ❤️");
+    // Or redirect them to a cute photo/page
+});
 // Initialize configuration
 const config = window.VALENTINE_CONFIG;
 
